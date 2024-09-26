@@ -1,9 +1,10 @@
 import './App.css';
+import IntroSection from './components/IntroSection';
 
 function App() {
   return (
     <>
-      <h1 className="text-4xl">Hola</h1>
+      <IntroSection />
     </>
   );
 }
