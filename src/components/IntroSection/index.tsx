@@ -12,19 +12,21 @@ function IntroSection() {
             className="rounded-full w-52 h-52 transition-all duration-300 cursor-pointer filter grayscale-0 hover:grayscale"
           />
         </div>
-        <p className="text-7xl">Krysthopher Ruiz</p>
-        <p className="text-2xl">
-          {utilsData.mainLanguage.split(' ').join(' and ')} developer.
-        </p>
-        <ul className="flex text-sm gap-2">
-          <li>About</li>
-          <li>Skills</li>
-          <li>Portfolio</li>
-          <li>Services</li>
-          <li>Certifications</li>
-          <li>Download CV</li>
-          <li>Contact me</li>
-        </ul>
+        <div className="flex flex-col items-center gap-3">
+          <p className="text-7xl">Krysthopher Ruiz</p>
+          <p className="text-2xl">
+            {utilsData.mainLanguage.split(' ').join(' and ')} developer.
+          </p>
+          <ul className="flex text-sm gap-2">
+            <li>About</li>
+            <li>Skills</li>
+            <li>Portfolio</li>
+            <li>Services</li>
+            <li>Certifications</li>
+            <li>Download CV</li>
+            <li>Contact me</li>
+          </ul>
+        </div>
       </div>
     </div>
   );
