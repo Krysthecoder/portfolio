@@ -3,12 +3,22 @@
 interface utilsData {
   devName: string;
   mainLanguage: string;
-  introContent: string;
+  subMenuItems: string[];
+  aboutContent: string;
 }
 
 export const utilsData: utilsData = {
-  devName: 'Krysthopher Ruiz',
+  devName: 'krysthopher ruiz',
   mainLanguage: 'JavaScript TypeScript',
-  introContent:
-    '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+  subMenuItems: [
+    'about',
+    'skills',
+    'portfolio',
+    'services',
+    'certifications',
+    'download CV',
+    'contact Me'
+  ],
+  aboutContent:
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 };
