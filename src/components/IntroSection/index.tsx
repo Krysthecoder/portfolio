@@ -3,7 +3,7 @@ import { utilsData } from '../../utils/utilsData';
 
 function IntroSection() {
   return (
-    <div className="h-screen bg-red-50">
+    <div className="h-screen bg-slate-50">
       <div className="w-8/12 h-screen items-center justify-center mx-auto flex flex-col gap-4">
         <div className="mx-auto ">
           <img
