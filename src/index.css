@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-img-1{
+  background-image: url("https://res.cloudinary.com/dhkjclfht/image/upload/c_scale,w_auto/q_auto/f_webp,fl_awebp/v1727813764/cld-sample-5");
+  min-height: 400px;
+}
+.parallax-section{
+  opacity: 0.85;
+  background-attachment: fixed;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}

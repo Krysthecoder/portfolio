@@ -1,12 +1,14 @@
 import './App.css';
-import AboutSection from './components/AboutSection';
 import IntroSection from './components/IntroSection';
+import TransitionSection from './components/TransitionSection';
+import SkillsSection from './components/SkillsSection';
 
 function App() {
   return (
     <>
       <IntroSection />
-      <AboutSection />
+      <TransitionSection title="About" />
+      <SkillsSection />
     </>
   );
 }

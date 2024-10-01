@@ -9,7 +9,7 @@ function IntroSection() {
           <img
             src={Portrait}
             alt="Self-Portrait"
-            className="rounded-full w-52 h-52 object-cover transition-all duration-300 cursor-pointer filter grayscale-0 hover:grayscale"
+            className="rounded-full w-52 h-52 object-cover "
           />
         </div>
         <div className="flex flex-col items-center gap-3">
