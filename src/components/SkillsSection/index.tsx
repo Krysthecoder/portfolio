@@ -1,8 +1,8 @@
 function SkillsSection() {
   return (
-    <div className="h-screen w-full bg-red-300">
-      <div className="bg-blue-200 flex items-center justify-evenly w-auto pt-32">
-        <div className="skills-card border-2 border-red-700">
+    <div className="h-screen w-full bg-slate-100">
+      <div className=" flex items-start justify-evenly gap-4 w-auto pt-32">
+        <div className="flex flex-col gap-4 items-center skills-card ">
           <div className="w-full">
             <img
               className="w-full"
@@ -10,17 +10,23 @@ function SkillsSection() {
               alt=""
             />
           </div>
-          <div className="w-11/12">
-            <h1> Title </h1>
-            <ul>
-              <li></li>
-              <li></li>
-              <li></li>
+          <div className="flex flex-col gap-4 w-11/12 h-auto">
+            <h1 className="text-3xl px-4"> Web Technologies: </h1>
+            <ul className="text-2xl">
+              <div className="border-t-2 border-red-700">
+                <li className="p-3">Skill 1</li>
+              </div>
+              <div className="border-t-2 border-red-700">
+                <li className="p-3">Skill 1</li>
+              </div>
+              <div className="border-t-2 border-red-700">
+                <li className="p-3">Skill 1</li>
+              </div>
             </ul>
           </div>
         </div>
 
-        <div className="skills-card border-2 border-red-700">
+        <div className="flex flex-col gap-4 items-center skills-card ">
           <div className="w-full">
             <img
               className="w-full"
@@ -28,17 +34,23 @@ function SkillsSection() {
               alt=""
             />
           </div>
-          <div className="w-11/12">
-            <h1> Title </h1>
-            <ul>
-              <li></li>
-              <li></li>
-              <li></li>
+          <div className="flex flex-col gap-4 w-11/12 h-auto">
+            <h1 className="text-3xl px-4"> Web Technologies: </h1>
+            <ul className="text-2xl">
+              <div className="border-t-2 border-red-700">
+                <li className="p-3">Skill 1</li>
+              </div>
+              <div className="border-t-2 border-red-700">
+                <li className="p-3">Skill 1</li>
+              </div>
+              <div className="border-t-2 border-red-700">
+                <li className="p-3">Skill 1</li>
+              </div>
             </ul>
           </div>
         </div>
 
-        <div className="skills-card border-2 border-red-700">
+        <div className="flex flex-col gap-4 items-center skills-card ">
           <div className="w-full">
             <img
               className="w-full"
@@ -46,12 +58,18 @@ function SkillsSection() {
               alt=""
             />
           </div>
-          <div className="w-11/12">
-            <h1> Title </h1>
-            <ul>
-              <li></li>
-              <li></li>
-              <li></li>
+          <div className="flex flex-col gap-4 w-11/12 h-auto">
+            <h1 className="text-3xl px-4"> Web Technologies: </h1>
+            <ul className="text-2xl">
+              <div className="border-t-2 border-red-700">
+                <li className="p-3">Skill 1</li>
+              </div>
+              <div className="border-t-2 border-red-700">
+                <li className="p-3">Skill 1</li>
+              </div>
+              <div className="border-t-2 border-red-700">
+                <li className="p-3">Skill 1</li>
+              </div>
             </ul>
           </div>
         </div>
