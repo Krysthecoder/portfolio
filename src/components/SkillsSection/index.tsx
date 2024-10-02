@@ -38,7 +38,7 @@ function SkillsSection() {
             <h1 className="text-3xl px-4"> Web Technologies: </h1>
             <ul className="text-2xl">
               <div className="border-t-2 border-red-700">
-                <li className="p-3">Skill 1</li>
+                <li className="p-3">HTML:5 & CCS3</li>
               </div>
               <div className="border-t-2 border-red-700">
                 <li className="p-3">Skill 1</li>
