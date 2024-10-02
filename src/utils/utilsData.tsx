@@ -14,6 +14,7 @@ interface utilsData {
   mainLanguage: string;
   subMenuItems: subMenuItems[];
   aboutContent: aboutContent[];
+  skillsContent: [];
 }
 
 export const utilsData: utilsData = {
@@ -44,5 +45,6 @@ export const utilsData: utilsData = {
       content:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     }
-  ]
+  ],
+  skillsContent: []
 };
