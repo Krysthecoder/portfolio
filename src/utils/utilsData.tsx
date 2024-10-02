@@ -4,11 +4,16 @@ interface subMenuItems {
   link: string;
 }
 
+interface aboutContent {
+  title: string;
+  content: string;
+}
+
 interface utilsData {
   devName: string;
   mainLanguage: string;
   subMenuItems: subMenuItems[];
-  aboutContent: string;
+  aboutContent: aboutContent[];
 }
 
 export const utilsData: utilsData = {
@@ -23,6 +28,21 @@ export const utilsData: utilsData = {
     { name: 'download CV', link: '#' },
     { name: 'contact Me', link: '#' }
   ],
-  aboutContent:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+  aboutContent: [
+    {
+      title: 'Who I am:',
+      content:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+    },
+    {
+      title: 'What I love:',
+      content:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+    },
+    {
+      title: 'What I am working on:',
+      content:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+    }
+  ]
 };
