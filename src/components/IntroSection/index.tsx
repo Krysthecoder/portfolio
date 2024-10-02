@@ -4,7 +4,7 @@ import { utilsData } from '../../utils/utilsData';
 function IntroSection() {
   return (
     <div className="h-screen bg-slate-50">
-      <div className="w-8/12 h-screen items-center justify-center mx-auto flex flex-col gap-4">
+      <div className="w-11/12 md:w-11/12 lg:w-8/12 h-screen items-center justify-center mx-auto flex flex-col gap-4">
         <div className="mx-auto ">
           <img
             src={Portrait}
@@ -12,11 +12,11 @@ function IntroSection() {
             className="rounded-full w-52 h-52 object-cover "
           />
         </div>
-        <div className="flex flex-col items-center gap-3">
-          <p className="text-6xl font-roboto font-semibold text-red-700">
+        <div className="flex flex-col items-center just gap-3  w-full ">
+          <h1 className="md:text-6xl sm:text-5xl text-4xl font-roboto font-semibold text-red-700">
             {utilsData.devName.toUpperCase()}
-          </p>
-          <p className="text-2xl font-roboto font-semibold text-teal-500">
+          </h1>
+          <p className="md:text-2xl sm:text-2xl font-roboto font-semibold text-teal-500 ">
             {utilsData.mainLanguage.split(' ').join(' and ')} developer.
           </p>
           <ul className="flex text-md gap-3 text-red-900">
