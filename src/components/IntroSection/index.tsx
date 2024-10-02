@@ -20,14 +20,14 @@ function IntroSection() {
             {utilsData.mainLanguage.split(' ').join(' and ')} developer.
           </p>
           <ul className="flex text-md gap-3 text-red-900">
-            {utilsData.subMenuItems.map((word) => {
-              const splittedWords: string[] = word.split('');
+            {utilsData.subMenuItems.map((items) => {
+              const splittedWords: string[] = items.name.split('');
               const capitalizedWord: string = splittedWords
                 .map((elem, ind) => (ind == 0 ? elem.toUpperCase() : elem))
                 .join('');
               return (
                 <li className="relative group">
-                  <a href="">{capitalizedWord}</a>
+                  <a href={items.link}>{capitalizedWord}</a>
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-red-700 group-hover:w-full group-hover:transition-all"></span>
                 </li>
               );
