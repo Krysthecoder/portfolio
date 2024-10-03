@@ -9,12 +9,18 @@ interface aboutContent {
   content: string;
 }
 
+interface skillsContent {
+  title: string;
+  content: string[];
+  image: string;
+}
+
 interface utilsData {
   devName: string;
   mainLanguage: string;
   subMenuItems: subMenuItems[];
   aboutContent: aboutContent[];
-  skillsContent: [];
+  skillsContent: skillsContent[];
 }
 
 export const utilsData: utilsData = {
@@ -46,5 +52,24 @@ export const utilsData: utilsData = {
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     }
   ],
-  skillsContent: []
+  skillsContent: [
+    {
+      title: 'Web Technologies',
+      content: ['Skill 1', 'Skill 2', 'Skill 3'],
+      image:
+        'https://res.cloudinary.com/dhkjclfht/image/upload/c_scale,w_auto/q_auto/f_webp,fl_awebp/v1727813764/cld-sample-5'
+    },
+    {
+      title: 'Web Technologies',
+      content: ['Skill 1', 'Skill 2', 'Skill 3'],
+      image:
+        'https://res.cloudinary.com/dhkjclfht/image/upload/c_scale,w_auto/q_auto/f_webp,fl_awebp/v1727813764/cld-sample-5'
+    },
+    {
+      title: 'Web Technologies',
+      content: ['Skill 1', 'Skill 2', 'Skill 3'],
+      image:
+        'https://res.cloudinary.com/dhkjclfht/image/upload/c_scale,w_auto/q_auto/f_webp,fl_awebp/v1727813764/cld-sample-5'
+    }
+  ]
 };
