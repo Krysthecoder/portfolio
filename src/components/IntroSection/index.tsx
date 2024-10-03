@@ -5,7 +5,7 @@ function IntroSection() {
   return (
     <div className="h-screen bg-slate-50">
       <div className="w-11/12 md:w-11/12 lg:w-8/12 h-screen items-center justify-center mx-auto flex flex-col gap-4">
-        <div className="mx-auto ">
+        <div className="mx-auto">
           <img
             src={Portrait}
             alt="Self-Portrait"

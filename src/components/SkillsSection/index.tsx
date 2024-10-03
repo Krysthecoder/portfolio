@@ -6,7 +6,7 @@ function SkillsSection() {
       <div className=" flex items-start justify-evenly gap-4 w-auto pt-32">
         {utilsData.skillsContent.map((skillsCard) => {
           return (
-            <div className="flex flex-col gap-4 items-center skills-card ">
+            <div className="flex flex-col gap-6 items-center common-card ">
               <div className="w-full">
                 <img className="w-full" src={skillsCard.image} alt="" />
               </div>

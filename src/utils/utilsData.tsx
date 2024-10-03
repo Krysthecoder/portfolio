@@ -15,12 +15,20 @@ interface skillsContent {
   image: string;
 }
 
+interface projectsContent {
+  title: string;
+  technologies: string[];
+  image: string;
+  content: string;
+}
+
 interface utilsData {
   devName: string;
   mainLanguage: string;
   subMenuItems: subMenuItems[];
   aboutContent: aboutContent[];
   skillsContent: skillsContent[];
+  projectsContent: projectsContent[];
 }
 
 export const utilsData: utilsData = {
@@ -76,6 +84,29 @@ export const utilsData: utilsData = {
       content: ['Skill 1', 'Skill 2', 'Skill 3'],
       image:
         'https://res.cloudinary.com/dhkjclfht/image/upload/c_scale,w_auto/q_auto/f_webp,fl_awebp/v1727813764/cld-sample-5'
+    }
+  ],
+  projectsContent: [
+    {
+      title: 'Dentora Dental Clinic',
+      technologies: ['React', 'Tailwind CSS', 'Material UI', 'YUP', 'Formik'],
+      image:
+        'https://res.cloudinary.com/dhkjclfht/image/upload/c_scale,w_auto/q_auto/f_webp,fl_awebp/v1727813764/cld-sample-5',
+      content: 'Dental appointment management system.'
+    },
+    {
+      title: 'Dentora Dental Clinic',
+      technologies: ['React', 'Tailwind CSS', 'Material UI', 'YUP', 'Formik'],
+      image:
+        'https://res.cloudinary.com/dhkjclfht/image/upload/c_scale,w_auto/q_auto/f_webp,fl_awebp/v1727813764/cld-sample-5',
+      content: 'Lorem ipsum dolor sit amet.'
+    },
+    {
+      title: 'Dentora Dental Clinic',
+      technologies: ['React', 'Tailwind CSS', 'Material UI', 'YUP', 'Formik'],
+      image:
+        'https://res.cloudinary.com/dhkjclfht/image/upload/c_scale,w_auto/q_auto/f_webp,fl_awebp/v1727813764/cld-sample-5',
+      content: 'Lorem ipsum dolor sit amet.'
     }
   ]
 };
