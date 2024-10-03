@@ -11,6 +11,7 @@ function App() {
       <AboutSection />
       <TransitionSection title="Skills" />
       <SkillsSection />
+      <TransitionSection title="Projects" />
     </>
   );
 }

@@ -29,7 +29,7 @@ export const utilsData: utilsData = {
   subMenuItems: [
     { name: 'about', link: '#about' },
     { name: 'skills', link: '#' },
-    { name: 'portfolio', link: '#' },
+    { name: 'projects', link: '#' },
     { name: 'services', link: '#' },
     { name: 'certifications', link: '#' },
     { name: 'download CV', link: '#' },
@@ -55,7 +55,13 @@ export const utilsData: utilsData = {
   skillsContent: [
     {
       title: 'Web Technologies',
-      content: ['Skill 1', 'Skill 2', 'Skill 3'],
+      content: [
+        'HTML5 & CSS3',
+        'JavaScript',
+        'TypeScript',
+        'Libraries',
+        'FrameWorks'
+      ],
       image:
         'https://res.cloudinary.com/dhkjclfht/image/upload/c_scale,w_auto/q_auto/f_webp,fl_awebp/v1727813764/cld-sample-5'
     },
