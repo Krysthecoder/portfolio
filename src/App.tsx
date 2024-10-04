@@ -4,6 +4,7 @@ import TransitionSection from './components/TransitionSection';
 import AboutSection from './components/AboutSection';
 import SkillsSection from './components/SkillsSection';
 import ProjectsSection from './components/ProjectsSection';
+import ServicesSection from './components/ServicesSection';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <SkillsSection />
       <TransitionSection title="Projects" />
       <ProjectsSection />
+      <TransitionSection title="Services" />
+      <ServicesSection />
     </>
   );
 }
